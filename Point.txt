@@ -1,0 +1,178 @@
+Configuration	Point
+STM32CubeMX 	6.1.0
+Date	12/30/2020
+MCU	STM32F105RCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN10	ADC1_IN10	PC0
+I2S2	Half-Duplex Transmit Only Master	I2S2_CK	PB13
+I2S2	Half-Duplex Transmit Only Master	I2S2_SD	PB15
+I2S2	Half-Duplex Transmit Only Master	I2S2_WS	PB12
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SPI3	Full-Duplex Master	SPI3_MISO	PB4
+SPI3	Full-Duplex Master	SPI3_MOSI	PB5
+SPI3	Full-Duplex Master	SPI3_SCK	PB3
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	TIM7	SYS_VS_tim7	VP_SYS_VS_tim7
+TIM1	PWM Generation CH1	TIM1_CH1	PA8
+TIM1	PWM Generation CH2	TIM1_CH2	PA9
+TIM1	PWM Generation CH3	TIM1_CH3	PA10
+TIM2	Input Capture direct mode	TIM2_CH1	PA0-WKUP
+TIM2	Input Capture indirect mode	TIM2_CH1	PA0-WKUP
+TIM3	Gated Mode	TIM3_VS_ControllerModeGated	VP_TIM3_VS_ControllerModeGated
+TIM3	ITR2	TIM3_VS_ClockSourceITR	VP_TIM3_VS_ClockSourceITR
+TIM3	PWM Generation CH1	TIM3_CH1	PC6
+TIM4	PWM Generation CH1	TIM4_CH1	PB6
+TIM4	PWM Generation CH2	TIM4_CH2	PB7
+TIM4	PWM Generation CH3	TIM4_CH3	PB8
+TIM5	Output Compare No Output	TIM5_VS_no_output2	VP_TIM5_VS_no_output2
+UART4	Asynchronous	UART4_RX	PC11
+UART4	Asynchronous	UART4_TX	PC10
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+8	PC0	ADC1_IN10	
+10	PC2	GPIO_Input	KEY3
+11	PC3	GPIO_Output	G
+14	PA0-WKUP	TIM2_CH1	TIM2_CH1_Resiv
+15	PA1	GPIO_Output	RCK
+16	PA2	GPIO_Output	SRCK
+17	PA3	GPIO_Output	SERIN
+20	PA4	GPIO_Output	FLASH_CS
+21	PA5	SPI1_SCK	FLASH_SCK
+22	PA6	SPI1_MISO	FLASH_MISO
+23	PA7	SPI1_MOSI	FLASH_MOSI
+28	PB2	GPIO_Output	LED_CS
+29	PB10	GPIO_Output	LED_RES
+30	PB11	GPIO_Output	LED_DC
+33	PB12	I2S2_WS	
+34	PB13	I2S2_CK	
+35	PB14	GPIO_Output	MUTE
+36	PB15	I2S2_SD	
+37	PC6	TIM3_CH1	TIM3_CH1_Transmit
+41	PA8	TIM1_CH1	INT_TIM1_CH1
+42	PA9	TIM1_CH2	INT_TIM1_CH2
+43	PA10	TIM1_CH3	INT_TIM1_CH3
+44	PA11	GPIO_Input	KEY1
+45	PA12	GPIO_Input	KEY2
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+50	PA15	GPIO_Output	ESP_EN
+51	PC10	UART4_TX	ESP_TX
+52	PC11	UART4_RX	ESP_RX
+55	PB3	SPI3_SCK	LED_SCK
+56	PB4	SPI3_MISO	LED_MISO
+57	PB5	SPI3_MOSI	LED_MOSI
+58	PB6	TIM4_CH1	EXT_TIM4_CH1
+59	PB7	TIM4_CH2	EXT_TIM4_CH2
+61	PB8	TIM4_CH3	EXT_TIM4_CH3
+62	PB9	GPIO_Input	KEY4
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN10	ADC1_IN10	PC0
+I2S2	Half-Duplex Transmit Only Master	I2S2_CK	PB13
+I2S2	Half-Duplex Transmit Only Master	I2S2_SD	PB15
+I2S2	Half-Duplex Transmit Only Master	I2S2_WS	PB12
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SPI3	Full-Duplex Master	SPI3_MISO	PB4
+SPI3	Full-Duplex Master	SPI3_MOSI	PB5
+SPI3	Full-Duplex Master	SPI3_SCK	PB3
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	TIM7	SYS_VS_tim7	VP_SYS_VS_tim7
+TIM1	PWM Generation CH1	TIM1_CH1	PA8
+TIM1	PWM Generation CH2	TIM1_CH2	PA9
+TIM1	PWM Generation CH3	TIM1_CH3	PA10
+TIM2	Input Capture direct mode	TIM2_CH1	PA0-WKUP
+TIM2	Input Capture indirect mode	TIM2_CH1	PA0-WKUP
+TIM3	Gated Mode	TIM3_VS_ControllerModeGated	VP_TIM3_VS_ControllerModeGated
+TIM3	ITR2	TIM3_VS_ClockSourceITR	VP_TIM3_VS_ClockSourceITR
+TIM3	PWM Generation CH1	TIM3_CH1	PC6
+TIM4	PWM Generation CH1	TIM4_CH1	PB6
+TIM4	PWM Generation CH2	TIM4_CH2	PB7
+TIM4	PWM Generation CH3	TIM4_CH3	PB8
+TIM5	Output Compare No Output	TIM5_VS_no_output2	VP_TIM5_VS_no_output2
+UART4	Asynchronous	UART4_RX	PC11
+UART4	Asynchronous	UART4_TX	PC10
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+8	PC0	ADC1_IN10	
+10	PC2	GPIO_Input	KEY3
+11	PC3	GPIO_Output	G
+14	PA0-WKUP	TIM2_CH1	TIM2_CH1_Resiv
+15	PA1	GPIO_Output	RCK
+16	PA2	GPIO_Output	SRCK
+17	PA3	GPIO_Output	SERIN
+20	PA4	GPIO_Output	FLASH_CS
+21	PA5	SPI1_SCK	FLASH_SCK
+22	PA6	SPI1_MISO	FLASH_MISO
+23	PA7	SPI1_MOSI	FLASH_MOSI
+28	PB2	GPIO_Output	LED_CS
+29	PB10	GPIO_Output	LED_RES
+30	PB11	GPIO_Output	LED_DC
+33	PB12	I2S2_WS	
+34	PB13	I2S2_CK	
+35	PB14	GPIO_Output	MUTE
+36	PB15	I2S2_SD	
+37	PC6	TIM3_CH1	TIM3_CH1_Transmit
+41	PA8	TIM1_CH1	INT_TIM1_CH1
+42	PA9	TIM1_CH2	INT_TIM1_CH2
+43	PA10	TIM1_CH3	INT_TIM1_CH3
+44	PA11	GPIO_Input	KEY1
+45	PA12	GPIO_Input	KEY2
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+50	PA15	GPIO_Output	ESP_EN
+51	PC10	UART4_TX	ESP_TX
+52	PC11	UART4_RX	ESP_RX
+55	PB3	SPI3_SCK	LED_SCK
+56	PB4	SPI3_MISO	LED_MISO
+57	PB5	SPI3_MOSI	LED_MOSI
+58	PB6	TIM4_CH1	EXT_TIM4_CH1
+59	PB7	TIM4_CH2	EXT_TIM4_CH2
+61	PB8	TIM4_CH3	EXT_TIM4_CH3
+62	PB9	GPIO_Input	KEY4
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Point
+Project Folder : C:\LW\Point\Firmware\FW\Point
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.3
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
